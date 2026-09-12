@@ -1,10 +1,10 @@
 <img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
 Death Notepad ⏳🗑️
 Basic Details
-Team Name: Useless duo
+Team Name: Useless Duo
 Team Members
-Member 1:Nikhil
-Member 2:Arjuna krishna
+Member 1: Nikhil 
+Member 2: Arjuna Krishna R
 Project Description
 Temporary Notepad is a deliberately useless desktop notepad built
 with Python and Tkinter. It allows users to type notes, but
@@ -53,16 +53,16 @@ Tkinter is included with most standard Python installations. No external
 Python packages are required for this project.
 Save the program as:
 ``` text
-temporary_notepad.py
+temporary\_notepad.py
 ```
 Run
 Open a terminal in the folder containing the file and run:
 ``` bash
-python temporary_notepad.py
+python temporary\_notepad.py
 ```
 On some systems, use:
 ``` bash
-python3 temporary_notepad.py
+python3 temporary\_notepad.py
 ```
 How It Works
 The application creates a Tkinter window containing:
@@ -91,15 +91,15 @@ Reset timer   Delete note
 ```
 Main Program Logic
 The `TemporaryNotepad` class controls the application.
-The `reset_timer()` function cancels the previous timer and starts a new
+The `reset\_timer()` function cancels the previous timer and starts a new
 2-second countdown.
-The `delete_text()` function checks whether the textbox contains text.
+The `delete\_text()` function checks whether the textbox contains text.
 If text exists, it:
-Increases `deleted_count`
+Increases `deleted\_count`
 Updates the deletion counter
 Selects a random message from the predefined message list
 Clears the textbox
-The `close_app()` function destroys the Tkinter window when the user
+The `close\_app()` function destroys the Tkinter window when the user
 presses Esc.
 Project Documentation
 Screenshots
@@ -165,7 +165,7 @@ Because it does the opposite of what a notepad should do.
 A normal notepad says:
 > "Write it down. I'll save it."
 Temporary Notepad says:
-> **"Write it down. I'll delete it."**
+> \*\*"Write it down. I'll delete it."\*\*
 Features
 ⏱️ 2-second automatic deletion
 🔄 Timer resets whenever the user types
@@ -177,9 +177,7 @@ Features
 🚫 Provides absolutely no useful long-term note storage
 ---
 Made with ❤️ and absolutely no respect for your notes at TinkerHub
-
-
-
+Useless Projects.
  
 
 ![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
